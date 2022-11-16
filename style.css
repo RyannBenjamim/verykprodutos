@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+.center {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* ------------------------- CONTADOR ------------------------- */
+
+.promo {
+    background-color: #0371BC;
+    padding: 5px;
+}
+
+.promo p {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.countdown {
+    background-color: #FAFAFA;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.countBox {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.timeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.title-time {
+    font-size: 0.9rem;
+}
+
+/* ------------------------- MAIN 01 ------------------------- */
+
+.main01 {
+    background: rgb(0,113,189);
+    background: linear-gradient(90deg, rgba(0,113,189,1) 0%, rgba(35,119,176,1) 42%, rgba(79,136,175,1) 93%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-bx {
+    width: 40%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.text-bx h1 {
+    text-transform: uppercase;
+}
+
+.text-bx h2 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.text-bx button {
+    width: 95%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #8db543;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.img-bx {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-bx img {
+    width: 70%;
+    border-radius: 50%;
+    border: 3px solid #fafafaaf;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.322);
+}
+
+/* ------------------------- MAIN 02 ------------------------- */
+
+.main02 {
+    background-color: #fafafa;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23aecadd' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-bx2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text-bx2 h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+    color: #0171BC;
+}
+
+.text-bx2 h2 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.img-bx2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img-bx2 img {
+    width: 60%;
+    border-radius: 30px;
+    border: 3px solid #4f89afc5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.322);
+}
+
+/* ------------------------- MAIN 03 ------------------------- */
+
+.main03 {
+    background: rgb(0,113,189);
+    background: linear-gradient(90deg, rgba(0,113,189,1) 0%, rgba(35,119,176,1) 42%, rgba(79,136,175,1) 93%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-bx3 {
+    width: 40%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.text-bx3 h1 {
+    text-transform: uppercase;
+}
+
+.text-bx3 h2 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.text-bx3 h2 i {
+    color: #8db543;
+}
+
+.text-bx3 button {
+    width: 95%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #8db543;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.img-bx3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-bx3 img {
+    width: 70%;
+    border-radius: 40%;
+    border: 3px solid #fafafaaf;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.322);
+}
+
+/* ------------------------- FOOTER ------------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0371BC;
+    margin-top: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #ddd;
+    font-size: 0.9rem;
+}
+
+/* ------------------------- MEDIA QUERYS ------------------------- */
+
+@media (max-width: 700px) {
+    .countBox {
+        width: 90%;
+    }
+
+    .container, .container2, .container3 {
+        flex-direction: column;
+    }
+
+    .text-bx, .text-bx2, .text-bx3 {
+        width: 90%;
+    }
+
+    .text-bx {
+        margin-bottom: 40px;
+    }
+
+    .text-bx3 {
+        margin-top: 40px;
+    }
+
+    .img-bx, .img-bx2, .img-bx3 {
+        width: 100%;
+    }
+
+    .img-bx2 img {
+        width: 90%;
+    }
+
+    .img-bx3 {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .time {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    
+    .title-time {
+        font-size: 0.8rem;
+    }
+
+    .text-bx h1, .text-bx2 h1, .text-bx3 h1 {
+        font-size: 1.85rem;
+    }
+
+    .text-bx h2, .text-bx2 h2, .text-bx3 h2 {
+        font-size: 1.16rem;
+        margin-top: 20px;
+    }
+
+    .text-bx h1, .text-bx2 h1, .text-bx3 h1 {
+        font-size: 1.85rem;
+    }
+
+    .text-bx button, .text-bx2 button, .text-bx3 button {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+    }
+}
